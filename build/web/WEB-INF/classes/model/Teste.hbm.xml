@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 19/06/2011 17:24:12 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="teste" name="model.Teste" table="teste">
+    <id name="idteste" type="int">
+      <column name="idteste"/>
+      <generator class="assigned"/>
+    </id>
+  </class>
+</hibernate-mapping>
